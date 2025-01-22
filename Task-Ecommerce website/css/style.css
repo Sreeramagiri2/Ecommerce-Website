@@ -1,0 +1,128 @@
+/* Card Styling */
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    border: none; 
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-img-top {
+    object-fit: contain; 
+    height: 300px; 
+    width: 100%; 
+    margin-bottom: 15px; 
+}
+.card-title {
+    font-size: 1.1rem;
+    font-weight:bold;
+}
+
+.card-text 
+{
+    font-size: 1rem;
+    color: #333;
+}
+
+.card button {
+    margin-top: auto; 
+}
+
+/* Responsive Grid Layout */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px; 
+}
+
+.col-md-4 {
+    padding: 0 15px; 
+    margin-bottom: 30px; 
+}
+
+/* Pagination Styling */
+#pagination {
+    margin-top: 20px;
+}
+
+#pagination button {
+    margin: 0 5px;
+}
+
+/* Active card button */
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+/* Loader Styling */
+#loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    height: 100vh;
+}
+
+/* Product List Spacing */
+#product-list {
+    margin-top: 20px;
+}
+
+/* Search Bar and Results */
+#search-input {
+    margin-bottom: 20px;
+}
+
+.card {
+    height: 100%;
+}
+.top-links {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #343a40;
+    z-index: 1000;
+}
+
+.top-links a {
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.top-links a:hover {
+    color: #f8f9fa;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;  
+}
+body {
+    padding-top: 56px;
+    background: linear-gradient(to top, #2c3e50, #34495e);
+    color: #fff;
+}
+.container {
+    margin-top: 80px; 
+}
+.footer{
+    text-align: center;
+    padding: 20px 0;
+    background-color: #f8f9fa;
+}
