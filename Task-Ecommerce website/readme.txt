@@ -79,7 +79,7 @@ License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 Contact
-For any inquiries or issues, feel free to contact me via email at [your-email@example.com].
+For any inquiries or issues, feel free to contact me via email at [pavanisreeramagiri.com].
 
 This README provides a clear and concise explanation of the application, its features, technologies, and how to run it. You can customize it further with your specific details, such as the repository link or contact information.
 
